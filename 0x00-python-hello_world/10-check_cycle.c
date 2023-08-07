@@ -24,7 +24,7 @@ int check_cycle(listint_t *list)
 	/*
 	 * iterating through the nodes
 	 */
-	while (head1 && head2)
+	while (head1 && head2 && head2->next)
 	{
 		head1 = head1->next;
 		head2 = head2->next->next;
