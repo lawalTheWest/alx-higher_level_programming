@@ -13,10 +13,13 @@ You know, coming from C language makes python seem incomplete due to the amount 
 <h6>Smiles...</h6>
 </br>
 
+let us take a view on ways we can use these:
+
 <h4>"if" and "else" statements</h4>
 
 `"if"` and `"else"` statements enable <em>decision-making,</em> aiding in executing code based on conditions.</br>
 
+<em>Example:</em>
 ```python lawalTheWest
 
 # The if/else statement
@@ -34,7 +37,7 @@ else:
 
 `Loops,` like `"for"` and `"while,"` iterate tasks, reducing `redundancy`. </br>
 
-
+<em>Example:</em>
 ```python lawalTheWest
 
 # The loop (for loop)
@@ -55,7 +58,7 @@ while count < 5:
 <h4>Functions</h4>
 `Functions` enhance code `modularity`, promoting `reusability`.
 
-
+<em>Example:</em>
 ```python lawalTheWest
 
 # The function (using a signature)
@@ -71,8 +74,6 @@ print(greeting)
 
 This trio of constructs forms the <b>backbone of Python's structure,</b> fostering clear, organized, and dynamic code.
 <em>Aspiring developers</em> and <em>seasoned professionals</em> alike harness these capabilities to create elegant solutions across a spectrum of domains, solidifying Python's status as a preferred programming language.
-
-let us take a view on ways we can use these:
 
 
 
