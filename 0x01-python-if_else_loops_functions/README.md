@@ -1,8 +1,7 @@
 <h1>0x01-python-if_else_loops_functions</h1>
 
 <h3>Python</h3>
-This a versatile language, it offers essential constructs for efficient coding.
-
+This is a versatile language, it offers essential constructs for efficient coding. </br>
 
 <em>
 You know, coming from C language makes python seem incomplete due to the amount of freedom in writing the codes.
