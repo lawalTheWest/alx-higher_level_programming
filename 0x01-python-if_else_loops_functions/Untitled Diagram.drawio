@@ -1,9 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T11:50:50.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="zzEfOb7oDd6qRyYoZMaC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T12:36:09.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="oxw-FZJEdL4j9q0zA0_S" version="21.6.6" type="github">
   <diagram name="Page-1" id="kqOpFUJPQ20ojLbwTq0K">
-    <mxGraphModel>
+    <mxGraphModel dx="878" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q6aJYwmtpTo_iutUyAM8-1" target="q6aJYwmtpTo_iutUyAM8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-1" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q6aJYwmtpTo_iutUyAM8-2" target="q6aJYwmtpTo_iutUyAM8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-2" value="number = random number&lt;br&gt;last_digit = number % 10" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="120" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q6aJYwmtpTo_iutUyAM8-3" target="q6aJYwmtpTo_iutUyAM8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-14" value="last_digit &amp;lt; 6 and not 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q6aJYwmtpTo_iutUyAM8-13">
+          <mxGeometry x="-0.0056" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q6aJYwmtpTo_iutUyAM8-3" target="q6aJYwmtpTo_iutUyAM8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-22" value="last_digit &amp;gt; 5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q6aJYwmtpTo_iutUyAM8-21">
+          <mxGeometry x="0.0725" y="-1" relative="1" as="geometry">
+            <mxPoint x="-129" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q6aJYwmtpTo_iutUyAM8-3" target="q6aJYwmtpTo_iutUyAM8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-27" value="last_digit == 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q6aJYwmtpTo_iutUyAM8-26">
+          <mxGeometry x="-0.2449" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-3" value="if" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q6aJYwmtpTo_iutUyAM8-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q6aJYwmtpTo_iutUyAM8-5" target="q6aJYwmtpTo_iutUyAM8-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="565" y="560" />
+              <mxPoint x="565" y="561" />
+              <mxPoint x="405" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-5" value="output: Last digit of {number} is {last_digit} and is greater than 5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="530" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q6aJYwmtpTo_iutUyAM8-6" target="q6aJYwmtpTo_iutUyAM8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-6" value="output: Last digit of {number} is {last_digit} and is 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="530" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q6aJYwmtpTo_iutUyAM8-7" target="q6aJYwmtpTo_iutUyAM8-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="540" />
+              <mxPoint x="405" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-7" value="output: Last digit of {number} is {last_digit} and is less than 6 and not 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="410" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-8" value="STOP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q6aJYwmtpTo_iutUyAM8-29" value="&lt;p data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 10px; color: rgb(200, 195, 188); font-family: aktiv-grotesk, sans-serif; font-size: 14px; text-align: start; background-color: rgb(24, 26, 27); --darkreader-inline-color: #c1bcb4; --darkreader-inline-bgcolor: #131516;&quot;&gt;This program will assign a random signed number to the variable&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;number&lt;/code&gt;&amp;nbsp;each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;number&lt;/code&gt;.&lt;/p&gt;&lt;ul data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(200, 195, 188); font-family: aktiv-grotesk, sans-serif; font-size: 14px; text-align: start; background-color: rgb(24, 26, 27); --darkreader-inline-color: #c1bcb4; --darkreader-inline-bgcolor: #131516;&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;You can find the source code&amp;nbsp;&lt;a data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; color: rgb(222, 77, 77); background-color: transparent; text-decoration-line: none; --darkreader-inline-color: #e05757; --darkreader-inline-bgcolor: transparent;&quot; target=&quot;_blank&quot; title=&quot;here&quot; href=&quot;https://intranet.alxswe.com/rltoken/Vku0ZPFeDPuXUKD8nZ4mOQ&quot;&gt;here&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;The variable&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;number&lt;/code&gt;&amp;nbsp;will store a different value every time you will run this program&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;You don’t have to understand what&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;import&lt;/code&gt;,&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;random.randint&lt;/code&gt;&amp;nbsp;do.&amp;nbsp;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;Please do not touch this code&lt;/strong&gt;. This line should not change:&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;number = random.randint(-10000, 10000)&lt;/code&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;The output of the program should be:&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;The string&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;Last digit of&lt;/code&gt;, followed by&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;the number, followed by&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;the string&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;is&lt;/code&gt;, followed by the last digit of&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;number&lt;/code&gt;, followed by&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;if the last digit is greater than 5: the string&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;and is greater than 5&lt;/code&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;if the last digit is 0: the string&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;and is 0&lt;/code&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;if the last digit is less than 6 and not 0: the string&amp;nbsp;&lt;code data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;box-sizing: border-box; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12.6px; padding: 2px 4px; color: rgb(221, 73, 110); background-color: rgb(43, 20, 26); border-radius: 4px; --darkreader-inline-color: #df5577; --darkreader-inline-bgcolor: #221015;&quot;&gt;and is less than 6 and not 0&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;followed by a new line&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="760" width="640" height="340" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
