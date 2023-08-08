@@ -3,6 +3,7 @@
 <h3>Python</h3>
 This a versatile language, it offers essential constructs for efficient coding.
 
+
 <em>
 You know, coming from C language makes python seem incomplete due to the amount of freedom in writing the codes.
 </em>
