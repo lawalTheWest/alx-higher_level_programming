@@ -11,17 +11,13 @@ You know, coming from C language makes python seem incomplete due to the amount 
 - The total strictness with implementation also played a part in this feelings.
 
 <h6>Smiles...</h6>
+</br>
 
-`"if"` and `"else"` statements enable <em>decision-making,</em> aiding in executing code based on conditions.
-`Loops,` like `"for"` and `"while,"` iterate tasks, reducing `redundancy`.
-`Functions` enhance code `modularity`, promoting `reusability`.
+<h4>"if" and "else" statements</h4>
 
-This trio of constructs forms the <b>backbone of Python's structure,</b> fostering clear, organized, and dynamic code.
-<em>Aspiring developers</em> and <em>seasoned professionals</em> alike harness these capabilities to create elegant solutions across a spectrum of domains, solidifying Python's status as a preferred programming language.
+`"if"` and `"else"` statements enable <em>decision-making,</em> aiding in executing code based on conditions.</br>
 
-let us take a view on ways we can use these:
-
-```python lawal tajudeen
+```python lawalTheWest
 
 # The if/else statement
 
@@ -31,24 +27,38 @@ if temperature > 30:
 else:
     print("It's not too hot.")
 
+```
+
+
+<h4>Loops</h4>
+
+`Loops,` like `"for"` and `"while,"` iterate tasks, reducing `redundancy`. </br>
+
+
+```python lawalTheWest
 
 # The loop (for loop)
-
 fruits = ["apple", "banana", "cherry", "orange"]
 for fruit in fruits:
     print("I like", fruit)
 
 
 # The loop (while loop)
-
 count = 0
 while count < 5:
     print("Count:", count)
     count += 1
 
+```
+
+
+<h4>Functions</h4>
+`Functions` enhance code `modularity`, promoting `reusability`.
+
+
+```python lawalTheWest
 
 # The function (using a signature)
-
 def greet(name):
     return ("Hello, " + name)
 
@@ -56,8 +66,15 @@ user_name = "Alice"
 greeting = greet(user_name)
 print(greeting)
 
-# LawalTheWest
 ```
+
+
+This trio of constructs forms the <b>backbone of Python's structure,</b> fostering clear, organized, and dynamic code.
+<em>Aspiring developers</em> and <em>seasoned professionals</em> alike harness these capabilities to create elegant solutions across a spectrum of domains, solidifying Python's status as a preferred programming language.
+
+let us take a view on ways we can use these:
+
+
 
 ************************************************************************
 These fundamental elements empower programmers, making Python a preferred language for diverse applications.
