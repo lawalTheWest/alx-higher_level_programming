@@ -3,10 +3,10 @@
     A function that prints a dictionary by ordered keys.
     Assume that all keys are strings
     Keys should be sorted by alphabetic order
-    
+
     Only sort keys of the first level
     (don’t sort keys of a dictionary inside the main dictionary)
-    
+
     Dictionary values can have any type
 '''
 
