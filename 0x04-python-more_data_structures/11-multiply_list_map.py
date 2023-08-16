@@ -8,5 +8,5 @@
 
 def multiply_list_map(my_list=[], number=0):
     product = map((lambda i: i * number), my_list)
-    product = list(product)
-    return (product)
+    product_list = list(product)
+    return (product_list)
