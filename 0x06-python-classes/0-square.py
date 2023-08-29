@@ -5,4 +5,7 @@
 
 
 class Square:
+    '''
+        Defines a Square class
+    '''
     pass
