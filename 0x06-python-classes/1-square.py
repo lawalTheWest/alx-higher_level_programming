@@ -6,6 +6,13 @@
 
 
 class Square:
+    '''
+        Defines a Square class
+    '''
 
     def __init__(self, size):
+        '''
+            instantiation with size
+            (no type/value verification)
+        '''
         self.__size = size
