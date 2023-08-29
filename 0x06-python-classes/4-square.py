@@ -31,7 +31,7 @@ class Square:
         '''
             Retrieve size
         '''
-        
+
         return self.__size
 
     @size.setter
