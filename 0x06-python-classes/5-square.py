@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 '''
-    A module that defines a square
+    A class Square that defines a square by:
+    (based on 4-square.py)
 '''
 
 
