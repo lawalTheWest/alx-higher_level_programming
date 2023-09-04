@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-'''
-    A class Rectangle that defines a rectangle by:
-    (based on 0-rectangle.py)
-'''
+'''A class Rectangle that defines a rectangle by:'''
 
 
 class Rectangle:
@@ -15,8 +12,8 @@ class Rectangle:
                 width: width of triangle
                 height: height of triangle
         '''
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
