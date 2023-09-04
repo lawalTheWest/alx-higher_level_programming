@@ -6,7 +6,9 @@
 
 
 class Rectangle:
-    '''defines a rectangle'''
+    '''
+        defines a rectangle
+    '''
 
     def __init__(self, width=0, height=0):
         '''
@@ -19,14 +21,24 @@ class Rectangle:
         self.__height = height
 
     @property
+    '''
+        property - width
+    '''
     def width(self):
         '''To retrieve width of rectangle'''
         return sellf.__width
 
     @width.setter
+    '''
+        width setter
+        Args:
+            value: int
+    '''
     def width(self, value):
-        '''To set width of rectangle'''
-
+        '''
+            To set width of rectangle
+            value: int
+        '''
         if not isinstance(value, int):
             '''checking if value is intiger'''
             raise TypeError('width must be an integer')
@@ -37,11 +49,21 @@ class Rectangle:
         self.__width = value
 
     @property
+    '''
+        property height
+    '''
     def height(self):
         '''To retrieve height of rectangle'''
         return self.__height
 
     @height.setter
+    '''
+        setter
+        function:
+            height
+        Args:
+            value: int
+    '''
     def height(self, value):
         '''To set height of rectangle'''
         if not isinstance(value, int):
