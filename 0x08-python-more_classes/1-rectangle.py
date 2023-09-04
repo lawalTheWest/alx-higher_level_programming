@@ -12,8 +12,8 @@ class Rectangle:
                 width: width of triangle
                 height: height of triangle
         '''
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     @property
     def width(self):
