@@ -3,6 +3,7 @@
     This defines a locked class
 '''
 
+
 class LockedClass:
     '''
         Only allows instatiation
