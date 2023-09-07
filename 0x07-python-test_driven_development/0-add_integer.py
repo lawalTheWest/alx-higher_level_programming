@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 '''
-    this function adds two numbers (int a, int b)
+    this function adds two numbers:
+        @a: int
+        @b: int
 '''
 
 
