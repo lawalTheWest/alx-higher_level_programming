@@ -39,6 +39,7 @@ def get_solution(board):
                 break
     return solution
 
+
 def xout(board, row, col):
     '''
         marks the spot where queens cannot be played
