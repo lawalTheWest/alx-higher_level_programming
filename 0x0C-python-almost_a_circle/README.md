@@ -1,6 +1,6 @@
 # Python Almost a Circle
-
-This project entails a review of everything about Python:
+---
+This project entails a review of everything about Python
 
 **The Concepts**
 
@@ -18,6 +18,7 @@ This project entails a review of everything about Python:
 - Serialization/Deserialization
 - JSON
 
-
+---
 **Lawal Tajudeen O**
+---
 # ALX SE
