@@ -121,9 +121,11 @@ class Rectangle(Base):
         if self.__width == 0 or self.__height == 0:
             print('')
 
-        for _ in range(self.__height):
-            for _ in range(self.__height):
-                if _ != self.__height:
-                    print('#')
-                else:
-                    print('#', end='')
+        for a in range(self.y):
+            print('')
+        for a in range(self.height):
+            for x in range(self.x):
+                print('', end='')
+            for x in range(self.width):
+                print('#', end='')
+            print('')
