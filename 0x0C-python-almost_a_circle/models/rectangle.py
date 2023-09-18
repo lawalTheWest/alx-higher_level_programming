@@ -14,10 +14,10 @@ class Rectangle(Base):
         A Class Constructor
     '''
     def __init__(self, width, height, x=0, y=0, id=None):
-        self.width = width
-        self.height = height
-        self.x = x
-        self.y = y
+        self.__width = width
+        self.__height = height
+        self.__x = x
+        self.__y = y
         super().__init__(id)
 
     @property
@@ -40,6 +40,7 @@ class Rectangle(Base):
                 raise ValueError
             '''
             raise ValueError('width must be > 0')
+        self.__width = value
 
     @property
     def height(self):
@@ -63,6 +64,7 @@ class Rectangle(Base):
                 raise a ValueError
             '''
             raise ValueError('height must be > 0')
+        self.__height = value
 
     @property
     def x(self):
@@ -83,6 +85,7 @@ class Rectangle(Base):
                 raise ValueError
             '''
             raise ValueError('x must be >= 0')
+        self.__x = value
 
     @property
     def y(self):
@@ -102,6 +105,7 @@ class Rectangle(Base):
         if value < 0:
             '''Raise ValueError'''
             raise ValueError('y must be >= 0')
+        self.__y = value
 
     def area(self):
         '''
@@ -109,3 +113,17 @@ class Rectangle(Base):
         '''
         Area = self.width * self.height
         return Area
+
+    def display(self):
+        '''
+            Prints in stdout the Rectangle instance with the character #
+        '''
+        if self.__width == 0 or self.__height == 0:
+            print('')
+
+        for _ in range(self.__height):
+            for _ in range(self.__height):
+                if _ != self.__height:
+                    print('#')
+                else:
+                    print('#', end='')
