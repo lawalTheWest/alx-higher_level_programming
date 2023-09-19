@@ -185,3 +185,16 @@ class Rectangle(Base):
                     self.x = kw2
                 elif kw1 == 'y':
                     self.y = kw2
+
+    def to_dictionary(self):
+        '''
+            Returns:
+                dictionary representation of rectangle
+        '''
+        return {
+                'id': self.id,
+                'width': self.width,
+                'height': self.height,
+                'x': self.x,
+                'y': self.y
+                }
