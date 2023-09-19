@@ -139,7 +139,7 @@ class Rectangle(Base):
         '''
         return '[Rectangle] ({}) {}/{} - {}/{}'.format(self.id, self.x, self.y, self.width, self.height)
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         '''
             Update the class Rectangle by adding the public method:
                 'args = no-keyword-argument'
@@ -166,3 +166,18 @@ class Rectangle(Base):
                 elif arguments == 4:
                     self.y == arg
                 a += 1
+        elif kwargs and len(kwargs) != 0:
+            for kw1, kw2 in kwargs.items():
+                if kw1 == 'id':
+                    if kw2 is None:
+                        self.__init__(self.width, self.height, self.x, self.y)
+                    else:
+                        self.id = kw2
+                elif kw1 == 'width':
+                    self.width = kw2
+                elif kw1 == 'height':
+                    self.height = kw2
+                elif kw1 == 'x':
+                    self.x = kw2
+                elif kw1 == 'y':
+                    self.y = kw2
