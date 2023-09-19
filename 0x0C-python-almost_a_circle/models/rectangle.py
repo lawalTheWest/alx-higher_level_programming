@@ -138,3 +138,31 @@ class Rectangle(Base):
                     [Rectangle] (<id>) <x>/<y> - <width>/<height>
         '''
         return '[Rectangle] ({}) {}/{} - {}/{}'.format(self.id, self.x, self.y, self.width, self.height)
+
+    def update(self, *args):
+        '''
+            Update the class Rectangle by adding the public method:
+                'args = no-keyword-argument'
+                1st argument is the 'id' attribute
+                2nd argument is the 'width' attribute
+                3rd argument is the 'height' attribute
+                4th argument is the 'x' attribute
+                5th argument is the 'y' attribute
+        '''
+        if args and len(args) != 0:
+            arguments = 0
+            for arg in args:
+                if arguments == 0:
+                    if arguments is None:
+                        self.__init__(self.width, self.height, self.x, self.y)
+                    else:
+                        self.id = arg
+                elif arguments == 1:
+                    self.width = arg
+                elif arguments == 2:
+                    self.height = arg
+                elif arguments == 3:
+                    self.x = arg
+                elif arguments == 4:
+                    self.y == arg
+                a += 1
