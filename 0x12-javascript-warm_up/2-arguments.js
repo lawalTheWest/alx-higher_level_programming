@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 // prints based on arguments given
-const { argv } = require('node:process');
+const { argv } = require('process');
 
 // getting the lenght of arguments
 const argvLength = argv.length - 2;
