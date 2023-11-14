@@ -1,9 +1,25 @@
-<h1>alx-higher_level_programming</h1>
-<h3>Python</h3>
+# Higher Level Programming
 
-<b>Python</b> is a versatile and popular `higher-level programming language` known for its <em>simplicity and readability</em>.
+---
+
+## Python
+
+**Python** is a versatile and popular `higher-level programming language` known for its *simplicity and readability*.
 Its user-friendly syntax makes it ideal for beginners and experienced developers alike.
-Python's extensive `standard library` and thriving community support enable rapid development, making it an excellent choice for <em>web development, data analysis, automation, and much more.</em>
+Python's extensive `standard library` and thriving community support enable rapid development, making it an excellent choice for *web development, data analysis, automation, and much more.*
+
+---
+
+## SQL
+
+**SQL**
+
+---
+
+## JavaScript
+
+**JavaScript**
+
 
 
 ************************************************************************
