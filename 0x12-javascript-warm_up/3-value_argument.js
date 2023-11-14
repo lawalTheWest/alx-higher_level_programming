@@ -8,4 +8,3 @@ if (arg === undefined) {
 } /* End if */ else {
   console.log(arg);
 } /* end else */
-
