@@ -18,8 +18,7 @@ The repository contains:
 - **Usage:** Detailed instructions on how to use SQLAlchemy to manage MySQL databases, perform CRUD operations, and handle relationships.
 - **Examples:** Code snippets demonstrating various SQLAlchemy functionalities, querying methods, and relationship management.
 - **Testing:** Guidelines for testing SQLAlchemy functionalities with MySQL databases, including sample test cases.
-- **Contributing:** Information for contributors, guidelines, and how to get involved in the project.
-
+- **contributing:** To contribute to this project.
 ---
 
 ## Features
@@ -36,7 +35,6 @@ The repository contains:
 - Python 3.x
 - SQLAlchemy
 - MySQL Database
-- [List of any other required libraries or dependencies]
 
 ---
 
