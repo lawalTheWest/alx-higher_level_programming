@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-    script that lists all states with a name starting with N 
+    script that lists all states with a name starting with N
     (upper N) from the database hbtn_0e_0_usa
 '''
 
@@ -19,7 +19,9 @@ if __name__ == '__main__':
                          passwd=argv[2],  # user password
                          db=argv[3]  # the database name
                          )
-    ''' creating a cursor object to retrieve data '''
+    '''
+        creating a cursor object to retrieve data
+    '''
     cursor = db.cursor()
 
     cursor.execute("SELECT * FROM states \
