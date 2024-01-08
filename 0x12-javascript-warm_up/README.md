@@ -1,1 +1,1 @@
-# Javascript: Web front-end
+# Javascript: Web front-end and scripting
