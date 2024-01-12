@@ -12,8 +12,8 @@ from sys import argv
 if __name__ == '__main__':
     '''
         access the database (db) and retrieve states.
-        database name = hbtn_0e_0_usa
-        for this task no argument validation are required
+        database = hbtn_0e_0_usa
+        for this task no argument validation were required
     '''
     db = MySQLdb.connect(host='localhost',  # database host
                          user=argv[1],  # MySQL username
