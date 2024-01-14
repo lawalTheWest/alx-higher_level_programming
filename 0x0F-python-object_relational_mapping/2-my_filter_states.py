@@ -26,4 +26,4 @@ if __name__ == '__main__':
     rows = cursor_obj.fetchall()
 
     for row in rows:
-        print(row) # ends for
+        print(row)
