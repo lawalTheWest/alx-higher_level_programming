@@ -26,6 +26,8 @@ if __name__ == "__main__":
                                            State.name == argv[4]).first()
 
     if instance is None:
-        print('Not found') # ends if
+        print('Not found')
+        # ends if
     else:
-        print('{0}'.format(instance.id)) # ends else
+        print('{0}'.format(instance.id))
+        # ends else
