@@ -26,8 +26,10 @@ if __name__ == "__main__":
     instance = session.query(State).order_by(State.id).first()
 
     if instance is None:
-        print('Nothing') # ends if
+        print('Nothing')
+        # ends if
     else:
         print('{0}: {1}'.format(
                                 instance.id,
-                                instance.name)) # ends else
+                                instance.name))
+        # ends else
