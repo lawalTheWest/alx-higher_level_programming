@@ -30,7 +30,8 @@ if __name__ == "__main__":
         print("{}: ({:d}) {}".format(
                                      _s.name,
                                      _c.id,
-                                     _c.name)) # end for
+                                     _c.name))
+        # end for
 
     session.commit()
     session.close()
