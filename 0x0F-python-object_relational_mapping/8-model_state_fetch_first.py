@@ -27,9 +27,7 @@ if __name__ == "__main__":
 
     if instance is None:
         print('Nothing')
-        # ends if
     else:
         print('{0}: {1}'.format(
                                 instance.id,
                                 instance.name))
-        # ends else
