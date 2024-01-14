@@ -29,4 +29,4 @@ if __name__ == '__main__':
                     ORDER BY states.id ASC")
     rows = cursor.fetchall()
     for row in rows:
-        print(row) # ends for
+        print(row)
