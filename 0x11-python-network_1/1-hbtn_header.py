@@ -4,7 +4,7 @@
     and displays the value of the variable found in the header of the response
 '''
 import urllib.request
-import sys
+from sys import argv
 
 if __name__ == '__main__':
     my_request = urllib.request.Request(argv[1])
