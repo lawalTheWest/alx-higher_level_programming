@@ -23,10 +23,10 @@ if __name__ == '__main__':
                 running on localhost at port 3306
     '''
     db = MySQLdb.connect(host="localhost",
-                            user=argv[1],
-                            port="3306",
-                            password=argv[2],
-                            db=argv[3])
+                         user=argv[1],
+                         port="3306",
+                         password=argv[2],
+                         db=argv[3])
 
     '''
         Creating a cursor object for my_db:
@@ -48,7 +48,3 @@ if __name__ == '__main__':
     '''
     db_cursor_obj.close()
     db.close()
-
-    except MySQLdb.Error as e:
-        print("MySQL Error:", e)
-        exit(1)
