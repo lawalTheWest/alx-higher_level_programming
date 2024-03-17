@@ -19,7 +19,8 @@ if __name__ == '__main__':
                 1. mysql username,
                 2. mysql password and
                 3. database name
-            B. script should connect to a MySQL server running on localhost at port 3306
+            B. script should connect to a MySQL server
+                running on localhost at port 3306
     '''
     my_db = MySQLdb.connect(host="localhost",
                             user=argv[1],
@@ -28,7 +29,8 @@ if __name__ == '__main__':
                             my_db=argv[3])
 
     '''
-        Creating a cursor object for my_db: more details in the documentation file
+        Creating a cursor object for my_db:
+            more details in the documentation file
             README.md
     '''
     my_db_cursor_obj = my_db.cursor()
