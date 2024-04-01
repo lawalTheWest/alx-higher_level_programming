@@ -17,5 +17,6 @@ if __name__ == '__main__':
     data = urllib.parse.urlencode(variable_sent)
     data = data.encode('ascii')
     requests_post = urllib.request.Request(received_url, data)
+
     with urllib.request.urlopen(requests_post) as response:
         print(response.read().decode())
