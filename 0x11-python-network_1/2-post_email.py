@@ -3,8 +3,8 @@
     takes in a URL & email as a parameter,
     sends POST requests to the URL,
     Then ddisplays response body using the utf-8
-    usage:
-            ./2-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
+    usage:./2-post_email.py
+    http://0.0.0.0:5000/post_email hr@holbertonschool.com
 '''
 import urllib.request
 from sys import argv
