@@ -3,7 +3,8 @@
     given URL & email as parameters,
     sends POST request to URL,
     displays response body utf-8
-    usage: ./6-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com
+    usage: ./6-post_email.py
+    http://0.0.0.0:5000/post_email hr@holbertonschool.com
 '''
 import requests
 from sys import argv
